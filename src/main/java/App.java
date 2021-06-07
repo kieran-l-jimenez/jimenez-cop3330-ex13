@@ -34,7 +34,7 @@ public class App
 
         double total = myApp.calculateCompoundInterest(principal, rate, time, annualCompound);
 
-        System.out.printf("$%.2f invested at %.3f%% for %d years compounded %d times per year is $%.2f\n", principal, rate, time, annualCompound, total);
+        System.out.printf("$%.0f invested at %.1f%% for %d years compounded %d times per year is $%.2f\n", principal, rate, time, annualCompound, total);
     }
 
     private double calculateCompoundInterest(double P, double r, int t, int n)
